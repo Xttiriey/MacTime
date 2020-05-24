@@ -4,6 +4,7 @@ from logo import logo
 import randmac
 import random
 import time
+import os
 import re
 
 def get_arguments():
