@@ -5,7 +5,7 @@ Mac address changer every n` seconds
 # :bulb: Installing
 `git clone https://github.com/Xttiriey/MacTime.git`
 
-`cd MacTime`
+`cd MacTime/`
 
 `sudo pip install -r requirements.txt`
 
