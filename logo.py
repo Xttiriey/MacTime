@@ -1,7 +1,7 @@
 import subprocess as sp
 def logo():
     sp.call("clear", shell=True)
-    print('''
+    print(r'''
 
             /$$      /$$                  /$$$$$$$$ /$$                        
             | $$$    /$$$                 |__  $$__/|__/                        
