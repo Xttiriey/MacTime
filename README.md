@@ -5,3 +5,10 @@ Mac address changer every n` seconds
 `git clone https://github.com/Xttiriey/MacTime.git`
 
 `sudo pip install -r requirements.txt`
+
+# :computer: what
+  `sudo python macTime.py -i wlan0 -t 10`
+  
+  `-t`  time interval in seconds
+  
+  `-i` your interface
