@@ -29,6 +29,11 @@ def changemac(interface):
 
 options = get_arguments()
 logo()
-while True:
-    changemac(options.interface)
-    time.sleep(float(options.timeInv))  
+euid = os.geteuid()
+
+if euid != 0:
+    print("Script not started as root. Running script with sudo..")
+else:
+    while True:
+        changemac(options.interface)
+        time.sleep(float(options.timeInv))  
