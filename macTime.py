@@ -10,7 +10,7 @@ import re
 def get_arguments():
     parser = op.OptionParser()
     parser.add_option("-i", "--interface", dest="interface", help="Your interface")
-    parser.add_option("-t", "--time", dest="timeInv", help="Time interval")
+    parser.add_option("-t", "--time", dest="timeInv", help="Time interval in seconds")
     (options, arguments) = parser.parse_args()
     return options
 
