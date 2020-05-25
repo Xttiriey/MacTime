@@ -35,7 +35,7 @@ euid = os.geteuid()
 if euid != 0:
     print("Script not started as root. Running script with sudo..")
 else:
-    print("[*] The script will start working after " + options.timeInv + " seconds")
+    print("[*] Error checking")
     while True:
         changemac(options.interface)
         time.sleep(float(options.timeInv))  
